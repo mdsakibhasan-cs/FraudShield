@@ -76,8 +76,6 @@ class_weight = "balanced"
 
 An **Isolation Forest** is used to identify unusual transaction patterns independently of the fraud classifier.
 
-Important distinction:
-
 > An anomaly is not automatically a fraud transaction.
 
 The anomaly detector provides an additional behavioral signal that is combined with the supervised fraud prediction.
@@ -132,8 +130,8 @@ The original dataset contains duplicate feature rows. Instead of allowing identi
 ### Confusion Matrix
 
 ```text
-                 Predicted
-               Normal  Fraud
+                Predicted
+              Normal  Fraud
 
 Actual Normal   56680     7
 Actual Fraud       17    79
@@ -156,8 +154,6 @@ The evaluation test set contained:
 FraudShield includes a model explainability page showing **global Random Forest feature importance**.
 
 The feature importance visualization helps identify which input variables contributed most strongly to the trained model's predictions.
-
-Important limitation:
 
 > Feature importance indicates model behavior; it does not establish causation and is not a transaction-specific explanation.
 
@@ -371,33 +367,18 @@ python -m streamlit run app/app.py
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Live Demo
 
-**Md Sakib Hasan**
+**Try FraudShield live:**
 
-Computer Science & Technology  
-Nantong University
+[![Open Live Demo](https://img.shields.io/badge/Live%20Demo-FraudShield-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://fraudshield-financial-fraud-analytics.streamlit.app/)
 
-Interests:
-
-- Cyber Security
-- Data Science
-- Machine Learning
-- Artificial Intelligence
-- Software Engineering
+**Live Application:**  
+https://fraudshield-financial-fraud-analytics.streamlit.app/
 
 ---
 
-## 📌 Project Status
-
-**Completed — Portfolio Project**
-
-FraudShield demonstrates an end-to-end workflow combining:
-
-**Data Science + Machine Learning + Fraud Analytics + Anomaly Detection + Explainability + Software Engineering**
----
-
-## ?? Dashboard Screenshots
+## 📸 Dashboard Screenshots
 
 ### Overview
 
@@ -426,3 +407,30 @@ FraudShield demonstrates an end-to-end workflow combining:
 ### Suspicious Transactions
 
 ![Suspicious Transactions](screenshots/07-suspicious-transactions.png)
+
+---
+
+## 📌 Project Status
+
+**Completed — Portfolio Project**
+
+FraudShield demonstrates an end-to-end workflow combining:
+
+**Data Science + Machine Learning + Fraud Analytics + Anomaly Detection + Explainability + Software Engineering**
+
+---
+
+## 👨‍💻 Author
+
+**Md Sakib Hasan**
+
+Computer Science & Technology  
+Nantong University
+
+Interests:
+
+- Cyber Security
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- Software Engineering
