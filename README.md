@@ -395,3 +395,34 @@ Interests:
 FraudShield demonstrates an end-to-end workflow combining:
 
 **Data Science + Machine Learning + Fraud Analytics + Anomaly Detection + Explainability + Software Engineering**
+---
+
+## ?? Dashboard Screenshots
+
+### Overview
+
+![FraudShield Overview](screenshots/01-overview.png)
+
+### Explainability
+
+![Model Explainability](screenshots/02-explainability.png)
+
+### Transaction Analysis
+
+![Transaction Analysis](screenshots/03-transaction-analysis.png)
+
+### Fraud Detection
+
+![Fraud Detection](screenshots/04-fraud-detection.png)
+
+### Anomaly Detection
+
+![Anomaly Detection](screenshots/05-anomaly-detection.png)
+
+### Risk Analysis
+
+![Risk Analysis](screenshots/06-risk-analysis.png)
+
+### Suspicious Transactions
+
+![Suspicious Transactions](screenshots/07-suspicious-transactions.png)
